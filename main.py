@@ -27,7 +27,6 @@ while True:
   if event in (None, 'Exit'):
     break
   if event == 'Merge':
-    print(values[0])
     merge_files_in(values[0])
     sg.popup("Done! Check this program's current folder for the output.")
 
